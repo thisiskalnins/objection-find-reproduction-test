@@ -1,0 +1,36 @@
+{
+  "name": "objection-find-reproduction-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_PATH=src nodemon src/app.ts",
+    "tslint": "tslint-config-prettier-check ./tslint.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisiskalnins/objection-find-reproduction-test.git"
+  },
+  "author": "Ričards Kalniņš",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.7",
+    "objection": "^2.2.3",
+    "objection-find": "github:Vincit/objection-find",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^14.14.3",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^4.0.3"
+  }
+}

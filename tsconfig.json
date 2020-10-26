@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "allowJs": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "alwaysStrict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]
+}
